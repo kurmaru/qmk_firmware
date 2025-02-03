@@ -1,0 +1,5 @@
+DEFAULT_FOLDER = crkbd/rev1
+SPLIT_KEYBOARD = yes
+OLED_ENABLE = yes
+LTO_ENABLE = yes
+WPM_ENABLE = yes
