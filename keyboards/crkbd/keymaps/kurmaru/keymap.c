@@ -305,7 +305,13 @@ static void print_status_narrow(void) {
             oled_write("Lower", false);
             break;
         case _ADJUST:
-            oled_write("Adj  ", false);
+            oled_write(" Adj ", false);
+            break;
+        case _MOUSE:
+            oled_write("Mouse", false);
+            break;
+        case _FN:
+            oled_write(" Fn  ", false);
             break;
         default:
             oled_write("Undef", false);
