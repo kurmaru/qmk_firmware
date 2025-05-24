@@ -44,4 +44,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define OLED_DISPLAY_128x64
 #define SPLIT_WPM_ENABLE
-#define TAPPING_TOGGLE 2
+#define TAPPING_TOGGLE 3
