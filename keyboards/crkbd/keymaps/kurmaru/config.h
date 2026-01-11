@@ -46,4 +46,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SPLIT_WPM_ENABLE
 #define TAPPING_TOGGLE 3
 #define FLOW_TAP_TERM 150
-
