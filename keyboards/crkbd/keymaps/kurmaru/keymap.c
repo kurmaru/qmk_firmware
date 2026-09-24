@@ -44,9 +44,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
        KC_ESC,LGUI_T(KC_A),LALT_T(KC_S),LSFT_T(KC_D),LCTL_T(KC_F),KC_G,             KC_H,RCTL_T(KC_J),RSFT_T(KC_K),LALT_T(KC_L),RGUI_T(KC_SCLN),KC_QUOT,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, KC_RALT,
+      KC_LCTL,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH,  R_CTRL,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                 KC_BSPC,   TT(1),   LCTL_T(KC_SPC),  RSFT_T(KC_ENT)    ,   TT(2), KC_RSFT
+                          MEH_T(KC_DEL),   TT(1),   HYPR_T(KC_SPC),  HYPR_T(KC_ENT)    ,   TT(2), KC_RSFT
                                       //`--------------------------'  `--------------------------'
 
   ),
