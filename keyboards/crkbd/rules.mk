@@ -1,8 +1,0 @@
-DEFAULT_FOLDER = crkbd/rev1
-SPLIT_KEYBOARD = yes
-OLED_ENABLE = yes
-LTO_ENABLE = yes
-WPM_ENABLE = yes
-MOUSEKEY_ENABLE = yes
-CONVERT_TO=rp2040_ce
-# Only need `qmk compile -kb crkbd -km kurmaru
